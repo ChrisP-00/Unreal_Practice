@@ -83,6 +83,15 @@ DerivedDataCache/*
 /Intermediate
 /Saved
 
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+*_BuiltData.uasset
+Saved/*
+Intermediate/*
+Plugins/*/Intermediate/*
+DerivedDataCache/*
+
 #################################
 # Visual Studio Generated Files #
 #################################
